@@ -8,27 +8,29 @@
     <title>Javascript Calculator!</title>
   </head>
   <body>
+    <div class="page-title"><h1>Javascript Calculator!</h1></div>
     <section class="calculator">
-      <div class="page-title"><h1>Javascript Calculator!</h1></div>
       <div class="calculator-block">
         <div class="display__result" id="idresult"></div>
         <button class="button__clear button">CE</button>
-        <button class="button__add button operator">+</button>
-        <button class="button__subtract button operator">-</button>
-        <button class="button__multiply button operator">*</button>
-        <button class="button__divide button operator">/</button>
+        <button class="button__add button operator" data-bob="0">+</button>
+        <button class="button__subtract button operator" data-bob="1">-</button>
+        <button class="button__multiply button operator" data-bob="2">*</button>
+        <button class="button__divide button operator" data-bob="3">/</button>
         <button class="button__equals button">=</button>
-        <button class="button__decimal button">.</button>
-        <button class="button__9 button numInput" value="9">9</button>
-        <button class="button__8 button numInput" value="8">8</button>
-        <button class="button__7 button numInput" value="7">7</button>
-        <button class="button__6 button numInput" value="6">6</button>
-        <button class="button__5 button numInput" value="5">5</button>
-        <button class="button__4 button numInput" value="4">4</button>
-        <button class="button__3 button numInput" value="3">3</button>
-        <button class="button__2 button numInput" value="2">2</button>
-        <button class="button__1 button numInput" value="1">1</button>
-        <button class="button__0 button numInput" value="0">0</button>
+        <button class="button__decimal button numInput" data-numValue=".">
+          .
+        </button>
+        <button class="button__9 button numInput" data-numValue="9">9</button>
+        <button class="button__8 button numInput" data-numValue="8">8</button>
+        <button class="button__7 button numInput" data-numValue="7">7</button>
+        <button class="button__6 button numInput" data-numValue="6">6</button>
+        <button class="button__5 button numInput" data-numValue="5">5</button>
+        <button class="button__4 button numInput" data-numValue="4">4</button>
+        <button class="button__3 button numInput" data-numValue="3">3</button>
+        <button class="button__2 button numInput" data-numValue="2">2</button>
+        <button class="button__1 button numInput" data-numValue="1">1</button>
+        <button class="button__0 button numInput" data-numValue="0">0</button>
       </div>
     </section>
     <script src="main.js"></script>
