@@ -52,21 +52,25 @@ equalPress.addEventListener("click", (event) => {
       let addResult = numOneResult + numTwoResult;
       calcDisplay.innerHTML = addResult.toString();
       console.log(addResult);
+      numOneResult = parseFloat(calcDisplay.innerHTML);
       break;
     case 1:
       let subResult = numOneResult - numTwoResult;
       calcDisplay.innerHTML = subResult.toString();
       console.log(subResult);
+      numOneResult = parseFloat(calcDisplay.innerHTML);
       break;
     case 2:
       let timesResult = numOneResult * numTwoResult;
       calcDisplay.innerHTML = timesResult.toString();
       console.log(timesResult);
+      numOneResult = parseFloat(calcDisplay.innerHTML);
       break;
     case 3:
       let divResult = numOneResult / numTwoResult;
       calcDisplay.innerHTML = divResult.toString();
       console.log(divResult);
+      numOneResult = parseFloat(calcDisplay.innerHTML);
       break;
     default:
       calcDisplay.innerHTML = "ERROR";
