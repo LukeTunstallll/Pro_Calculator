@@ -25,7 +25,7 @@ buttonPress.forEach((number) => {
 
 operatorPress.forEach((operator) => {
   operator.addEventListener("click", (event) => {
-    numOneResult = parseInt(calcDisplay.innerHTML);
+    numOneResult = parseFloat(calcDisplay.innerHTML);
     calcDisplay.innerHTML = "";
     switch (operator.dataset.bob) {
       case "0":
@@ -45,7 +45,7 @@ operatorPress.forEach((operator) => {
 });
 
 equalPress.addEventListener("click", (event) => {
-  numTwoResult = parseInt(calcDisplay.innerHTML);
+  numTwoResult = parseFloat(calcDisplay.innerHTML);
   console.log(numTwoResult);
   switch (operatorVal) {
     case 0:
