@@ -20,6 +20,7 @@
   justify-content: center;
   color: #003b46;
   font-size: 30px;
+  margin-bottom: 40px;
 }
 
 .calculator {
@@ -76,6 +77,8 @@
   color: #c4dfe6;
   border-color: #c4dfe6;
   border-radius: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .button__clear {
