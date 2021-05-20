@@ -1,6 +1,10 @@
 # Pro_Calculator
 
-Fully Functional JS Calculator
+Functional JS Calculator
+
+Accepts Number1 -> Operator -> Number2 -> Equals, displays result on screen. Can use result again by pressing another operator then inputting another value.
+
+
 
 Psuedo code/program theory
 
