@@ -1,0 +1,20 @@
+{
+  "name": "pro_calculator",
+  "version": "1.0.0",
+  "description": "Functional JS Calculator",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeTunstallll/Pro_Calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukeTunstallll/Pro_Calculator/issues"
+  },
+  "homepage": "https://github.com/LukeTunstallll/Pro_Calculator#readme"
+}

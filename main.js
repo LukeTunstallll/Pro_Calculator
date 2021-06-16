@@ -14,7 +14,6 @@ clearDisplay.addEventListener("click", (event) => {
 const calcDisplay = document.getElementById("idresult");
 const buttonPress = document.querySelectorAll(".numInput");
 const operatorPress = document.querySelectorAll(".operator");
-
 const equalPress = document.querySelector(".button__equals");
 
 buttonPress.forEach((number) => {

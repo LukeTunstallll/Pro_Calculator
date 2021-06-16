@@ -1,8 +1,10 @@
 # Pro_Calculator
 
-Functional JS Calculator
+Simple Functional JS Calculator
 
 Accepts Number1 -> Operator -> Number2 -> Equals, displays result on screen. Can use result again by pressing another operator then inputting another value.
+
+Work needed -> Screen character limit - visual display of saved values?
 
 Psuedo code/program theory
 
